@@ -9,3 +9,6 @@ window.addEventListener("load", function() {
 // 	console.log("Play Video");
 // });
 
+document.querySelector("#play").addEventListener("click", function(){
+	console.log("Play Video");
+});
