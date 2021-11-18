@@ -15,7 +15,7 @@ window.addEventListener("load", function() {
 document.querySelector("#play").addEventListener("click", function(){
 	console.log("Play Video");
 	video.play();
-	let vol = document.querySelector(#volume).innerHTML = (video.volume * 100) + "%";
+	let vol = document.querySelector("#volume").innerHTML = (video.volume * 100) + "%";
 });
 
 document.querySelector("#pause").addEventListener("click", function(){
@@ -23,8 +23,8 @@ document.querySelector("#pause").addEventListener("click", function(){
 	video.pause();
 });
 
-document.querySelector("faster").addEventListener("click", fucntion(){
-	video.playbackRate=video.playbackRate *1.05;
+document.querySelector("#faster").addEventListener("click", function(){
+	video.playbackRate = video.playbackRate * 1.05;
 	console.log("New speed is" + video.playbackRate);
 });
 
