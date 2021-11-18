@@ -1,5 +1,6 @@
-var video;
-var volume;
+var video = document.querySelector("#player1");
+var volume = document.querySelector("#volume");
+
 
 window.addEventListener("load", function() {
 	console.log("Good job opening the window")
